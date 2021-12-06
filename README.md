@@ -38,11 +38,13 @@ Regular Shellcode Execution (No Windows API) |
   * Shellcode Execution (ASM) ```void Execute(void);```
   * Classic Shellcode Execution ```void Execute(char *code);```
   * Shellcode Execution via Windows Fibers ```void Execute(char *s);```
-  * Regular Shellcode Execution (No Windows API) ```void Execute(char *shellcode);```
   * Shellcode Execution via RemoteThread ```void Execute(char *code);```
+  * Regular Shellcode Execution (No Windows API) ```void Execute(char *shellcode);```
 
 - How to use Process functions:
-  * example
+  * Checking if a process exists ```bool Execute(char *proc);```
+  * Killing a process ```bool Execute(int pid);```
+  * Fetching the PID of a process ```bool Execute(char *proc);```
 
 - How to use functions classifed under `misc`:
   * example
