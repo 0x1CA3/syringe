@@ -58,7 +58,8 @@ Regular Shellcode Execution (No Windows API) |
   * Fetching the PID of a process ```GetProcess().Execute(char *proc);```
 
 - How to use functions classifed under `misc`:
-  * example
+  * Checking for 32bit or 64bit Windows ```IsWin64().Execute();```
+  * Checking for little-endian or big-endian ```GetEndian().Execute()```
 ## Setup & Installation
 ```
 Steps for compiling & running:
