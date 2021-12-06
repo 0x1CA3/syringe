@@ -41,25 +41,25 @@ Regular Shellcode Execution (No Windows API) |
 
 ## Information
 - How to use Process functions:
-  * Checking if a process exists ```Execute(char *proc);``` ###### Parameters: <process name>
-  * Killing a process ```KillProc().Execute(int pid);``` ###### Parameters: <process ID>
-  * Fetching the PID of a process ```GetProcess().Execute(char *proc);``` ###### Parameters: <process name>
+  * Checking if a process exists ```Execute(char *proc);``` Parameters: (process name)
+  * Killing a process ```KillProc().Execute(int pid);``` Parameters: (process ID)
+  * Fetching the PID of a process ```GetProcess().Execute(char *proc);``` Parameters: (process name)
 
 - How to use functions classifed under `misc`:
-  * Checking for 32bit or 64bit Windows ```IsWin64().Execute();``` ###### Parameters: <none>
-  * Checking for little-endian or big-endian ```GetEndian().Execute()``` ###### Parameters: <none>
+  * Checking for 32bit or 64bit Windows ```IsWin64().Execute();``` Parameters: (none)
+  * Checking for little-endian or big-endian ```GetEndian().Execute()``` Parameters: (none)
 
 - How to use DLL/Code Injection functions:
-  * Classic DLL Injection ```DllInject().Execute(int pid, wchar_t p_dll);``` ###### Parameters: <process ID> <DLL>
-  * DLL via Thread Hijacking ```TInjection().Execute(int pid, char *s);``` ###### Parameters: <process ID> <shellcode>
-  * APC Code Injection ```APCInjection().Execute(char *s, char *proc_name);``` ###### Parameters: <shellcode> <process name>
+  * Classic DLL Injection ```DllInject().Execute(int pid, wchar_t p_dll);``` Parameters: (process ID, DLL)
+  * DLL via Thread Hijacking ```TInjection().Execute(int pid, char *s);``` Parameters: (process ID, shellcode)
+  * APC Code Injection ```APCInjection().Execute(char *s, char *proc_name);``` Parameters: (shellcode, process name)
 	
 - How to use Shellcode Exeuction functions:
   * Shellcode Execution (ASM) ```ASMShellcodeExecution().Execute();``` Go to `includes/shellcode/asm.hpp` to edit in your own custom shellcode!
-  * Classic Shellcode Execution ```LocalShellcodeExecution().Execute(char *code);``` Parameters: <shellcode>
-  * Shellcode Execution via Windows Fibers ```FiberShellcodeExecution().Execute(char *s);``` Parameters: <shellcode>
-  * Shellcode Execution via RemoteThread ```RemoteProcessShellcodeExecution().Execute(char *code);``` Parameters: <shellcode>
-  * Regular Shellcode Execution (No Windows API) ```ExecuteShellCodeNoAPI().Execute(char *shellcode);``` Parameters: <shellcode>
+  * Classic Shellcode Execution ```LocalShellcodeExecution().Execute(char *code);``` Parameters: (shellcode)
+  * Shellcode Execution via Windows Fibers ```FiberShellcodeExecution().Execute(char *s);``` Parameters: (shellcode)
+  * Shellcode Execution via RemoteThread ```RemoteProcessShellcodeExecution().Execute(char *code);``` Parameters: (shellcode)
+  * Regular Shellcode Execution (No Windows API) ```ExecuteShellCodeNoAPI().Execute(char *shellcode);``` Parameters: (shellcode)
 
 ## Setup & Installation
 ```
