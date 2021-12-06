@@ -55,7 +55,7 @@ Regular Shellcode Execution (No Windows API) |
   * APC Code Injection ```APCInjection().Execute(char *s, char *proc_name);``` Parameters: (shellcode, process name)
 	
 - How to use Shellcode Exeuction functions:
-  * Shellcode Execution (ASM) ```ASMShellcodeExecution().Execute();``` Go to `includes/shellcode/asm.hpp` to edit in your own custom shellcode!
+  * Shellcode Execution (ASM) ```ASMShellcodeExecution().Execute();``` Parameters: (none) | Go to `includes/shellcode/asm.hpp` to edit in your own custom shellcode!
   * Classic Shellcode Execution ```LocalShellcodeExecution().Execute(char *code);``` Parameters: (shellcode)
   * Shellcode Execution via Windows Fibers ```FiberShellcodeExecution().Execute(char *s);``` Parameters: (shellcode)
   * Shellcode Execution via RemoteThread ```RemoteProcessShellcodeExecution().Execute(char *code);``` Parameters: (shellcode)
