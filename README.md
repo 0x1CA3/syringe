@@ -28,7 +28,15 @@ Shellcode Execution via RemoteThread |
 Shellcode Execution via Windows fibers |
 Regular Shellcode Execution (No Windows API) |
 
-## Documentation
+## Information
+-     How to use DLL/Code Injection functions
+	* example
+-     How to use Shellcode Exeuction functions
+	* example
+-     How to use Process functions
+	* example
+-     How to use functions classifed under `misc`
+	* example
 
 ## Setup & Installation
 ```
