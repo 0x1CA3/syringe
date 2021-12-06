@@ -36,9 +36,9 @@ Regular Shellcode Execution (No Windows API) |
 	
 - How to use Shellcode Exeuction functions:
   * Shellcode Execution (ASM) ```ASMShellcodeExecution().Execute();```
-  * Classic Shellcode Execution ```ClassicShellcodeExecution().Execute(char *code);```
+  * Classic Shellcode Execution ```LocalShellcodeExecution().Execute(char *code);```
   * Shellcode Execution via Windows Fibers ```FiberShellcodeExecution().Execute(char *s);```
-  * Shellcode Execution via RemoteThread ```RemoteProcessShellcodeInjection().Execute(char *code);```
+  * Shellcode Execution via RemoteThread ```RemoteProcessShellcodeExecution().Execute(char *code);```
   * Regular Shellcode Execution (No Windows API) ```ExecuteShellCodeNoAPI().Execute(char *shellcode);```
 
 - How to use Process functions:
