@@ -30,7 +30,7 @@ Regular Shellcode Execution (No Windows API) |
 
 ## Information
 - How to use DLL/Code Injection functions:
-  * example
+  * example ```void Execute(int pid, wchar_t p_dll);```
 
 - How to use Shellcode Exeuction functions:
   * example
