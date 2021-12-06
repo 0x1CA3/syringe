@@ -18,8 +18,9 @@ Injection Techniques |
 ------------------------ |
 APC Code Injection |
 Classic DLL Injection |
+DLL Injection via Thread Hijacking |
 
-ShellCode Execution Techniques |
+Shellcode Execution Techniques |
 ------------------------------ |
 Shellcode execution (ASM) |
 Classic Shellcode Execution |
