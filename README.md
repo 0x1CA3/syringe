@@ -22,18 +22,22 @@ DLL Injection via Thread Hijacking |
 
 Shellcode Execution Techniques |
 ------------------------------ |
-Shellcode execution (ASM) |
+Shellcode Execution (ASM) |
 Classic Shellcode Execution |
 Shellcode Execution via RemoteThread |
-Shellcode Execution via Windows fibers |
+Shellcode Execution via Windows Fibers |
 Regular Shellcode Execution (No Windows API) |
 
 ## Information
 - How to use DLL/Code Injection functions:
-  * example ```void Execute(int pid, wchar_t p_dll);```
-
+  * Classic DLL Injection ```void Execute(int pid, wchar_t p_dll);```
+  * DLL via Thread Hijacking ```void Execute(int pid, char *s);```
+  * APC Code Injection ```void Execute(char *s, char *proc_name);```
+	
 - How to use Shellcode Exeuction functions:
-  * example
+  * Shellcode Execution (ASM) ```void Execute(void);```
+  * Shellcode Execution via Windows Fibers ```void Execute(char *s);```
+
 
 - How to use Process functions:
   * example
