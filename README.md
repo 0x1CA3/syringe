@@ -28,6 +28,17 @@ Shellcode Execution via RemoteThread |
 Shellcode Execution via Windows Fibers |
 Regular Shellcode Execution (No Windows API) |
 
+Process Features |
+---------------- |
+Kill a process
+Check if a process exists
+Fetch the PID of a process
+
+Miscellaneous Features |
+---------------------- |
+Checking for 32bit or 64bit Windows
+Checking for little-endian or big-endian
+
 ## Information
 - How to use DLL/Code Injection functions:
   * Classic DLL Injection ```DllInject().Execute(int pid, wchar_t p_dll);```
