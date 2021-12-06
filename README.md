@@ -14,11 +14,22 @@
 </p>
 
 ## Features
+Process Features |
+---------------- |
+Kill a process
+Check if a process exists
+Fetch the PID of a process
+
 Injection Techniques |
 ------------------------ |
 APC Code Injection |
 Classic DLL Injection |
 DLL Injection via Thread Hijacking |
+
+Miscellaneous Features |
+---------------------- |
+Checking for 32bit or 64bit Windows
+Checking for little-endian or big-endian
 
 Shellcode Execution Techniques |
 ------------------------------ |
@@ -27,17 +38,6 @@ Classic Shellcode Execution |
 Shellcode Execution via RemoteThread |
 Shellcode Execution via Windows Fibers |
 Regular Shellcode Execution (No Windows API) |
-
-Process Features |
----------------- |
-Kill a process
-Check if a process exists
-Fetch the PID of a process
-
-Miscellaneous Features |
----------------------- |
-Checking for 32bit or 64bit Windows
-Checking for little-endian or big-endian
 
 ## Information
 - How to use DLL/Code Injection functions:
