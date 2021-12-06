@@ -37,7 +37,8 @@ Regular Shellcode Execution (No Windows API) |
 - How to use Shellcode Exeuction functions:
   * Shellcode Execution (ASM) ```void Execute(void);```
   * Shellcode Execution via Windows Fibers ```void Execute(char *s);```
-
+  * Regular Shellcode Execution (No Windows API) ```void Execute(char *shellcode);```
+  * Shellcode Execution via RemoteThread ```void Execute(char *code);```
 
 - How to use Process functions:
   * example
