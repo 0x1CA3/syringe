@@ -1,5 +1,5 @@
 <h1 align="center">
-	<img src="https://www.pngrepo.com/png/270132/512/health-clinic-syringe.png" width="200px"><br>
+	<img src="https://www.pngrepo.com/png/270132/512/health-clinic-syringe.png" width="150px"><br>
     syringe - A DLL & Code Injection C++ library for Windows.
 </h1>
 <p align="center">
