@@ -29,15 +29,17 @@ Shellcode Execution via Windows fibers |
 Regular Shellcode Execution (No Windows API) |
 
 ## Information
--     How to use DLL/Code Injection functions
-	* example
--     How to use Shellcode Exeuction functions
-	* example
--     How to use Process functions
-	* example
--     How to use functions classifed under `misc`
-	* example
+- How to use DLL/Code Injection functions:
+  * example
 
+- How to use Shellcode Exeuction functions:
+  * example
+
+- How to use Process functions:
+  * example
+
+- How to use functions classifed under `misc`:
+  * example
 ## Setup & Installation
 ```
 Steps for compiling & running:
