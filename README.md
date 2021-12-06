@@ -4,7 +4,7 @@
 </h1>
 <p align="center">
     syringe is a DLL & Code Injection C++ library for Windows that contains
-    different techniques to assist in injecting code/DLLs into remote process. Syringe
+    different techniques to assist in injecting code/DLLs into remote processes. Syringe
     also contains various techniques for execution shellcode.
 </p>
 
