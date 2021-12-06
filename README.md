@@ -41,9 +41,9 @@ Regular Shellcode Execution (No Windows API) |
 
 ## Information
 - How to use Process functions:
-  * Checking if a process exists ```Execute(char *proc);``` Parameters: (process name)
+  * Checking if a process exists ```GetProcess().Execute(char *proc);``` Parameters: (process name)
   * Killing a process ```KillProc().Execute(int pid);``` Parameters: (process ID)
-  * Fetching the PID of a process ```GetProcess().Execute(char *proc);``` Parameters: (process name)
+  * Fetching the PID of a process ```GetPID().Execute(char *proc);``` Parameters: (process name)
 
 - How to use functions classifed under `misc`:
   * Checking for 32bit or 64bit Windows ```IsWin64().Execute();``` Parameters: (none)
