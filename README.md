@@ -1,5 +1,5 @@
 <h1 align="center">
-	<img src="https://images.vexels.com/media/users/3/153937/isolated/preview/9e8674f45afdde0cd2aaeb4be57f0795-syringe-colored-stroke-icon.png" width="200px"><br>
+	<img src="https://t4.ftcdn.net/jpg/02/93/36/41/360_F_293364102_Aljuf5aqTtkBWDXNexml6pPzXteNvbwv.jpg" width="200px"><br>
     syringe - A DLL & Code Injection C++ library for Windows.
 </h1>
 <p align="center">
