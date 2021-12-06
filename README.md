@@ -30,21 +30,21 @@ Regular Shellcode Execution (No Windows API) |
 
 ## Information
 - How to use DLL/Code Injection functions:
-  * Classic DLL Injection ```void Execute(int pid, wchar_t p_dll);```
-  * DLL via Thread Hijacking ```void Execute(int pid, char *s);```
-  * APC Code Injection ```void Execute(char *s, char *proc_name);```
+  * Classic DLL Injection ```DllInject().Execute(int pid, wchar_t p_dll);```
+  * DLL via Thread Hijacking ```TInjection().Execute(int pid, char *s);```
+  * APC Code Injection ```APCInjection().Execute(char *s, char *proc_name);```
 	
 - How to use Shellcode Exeuction functions:
-  * Shellcode Execution (ASM) ```void Execute(void);```
-  * Classic Shellcode Execution ```void Execute(char *code);```
-  * Shellcode Execution via Windows Fibers ```void Execute(char *s);```
-  * Shellcode Execution via RemoteThread ```void Execute(char *code);```
-  * Regular Shellcode Execution (No Windows API) ```void Execute(char *shellcode);```
+  * Shellcode Execution (ASM) ```ASMShellcodeExecution().Execute();```
+  * Classic Shellcode Execution ```ClassicShellcodeExecution().Execute(char *code);```
+  * Shellcode Execution via Windows Fibers ```FiberShellcodeExecution().Execute(char *s);```
+  * Shellcode Execution via RemoteThread ```RemoteProcessShellcodeInjection().Execute(char *code);```
+  * Regular Shellcode Execution (No Windows API) ```ExecuteShellCodeNoAPI().Execute(char *shellcode);```
 
 - How to use Process functions:
-  * Checking if a process exists ```bool Execute(char *proc);```
-  * Killing a process ```bool Execute(int pid);```
-  * Fetching the PID of a process ```bool Execute(char *proc);```
+  * Checking if a process exists ```Execute(char *proc);```
+  * Killing a process ```KillProc().Execute(int pid);```
+  * Fetching the PID of a process ```GetProcess().Execute(char *proc);```
 
 - How to use functions classifed under `misc`:
   * example
