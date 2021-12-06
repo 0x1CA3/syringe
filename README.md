@@ -13,6 +13,20 @@
     	<img src="https://img.shields.io/badge/Version-1.0.0-7DCDE3?style=for-the-badge" alt="Version">
 </p>
 
+## Features
+Injection Techniques |
+------------------------ |
+APC Code Injection |
+Classic DLL Injection |
+
+ShellCode Execution Techniques |
+------------------------------ |
+Shellcode execution (ASM) |
+Classic Shellcode Execution |
+Shellcode Execution via RemoteThread |
+Shellcode Execution via Windows fibers |
+Regular Shellcode Execution (No Windows API) |
+
 ## Documentation
 
 ## Setup & Installation
