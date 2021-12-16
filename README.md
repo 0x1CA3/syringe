@@ -3,9 +3,8 @@
     syringe - A DLL & Code Injection C++ library for Windows.
 </h1>
 <p align="center">
-    syringe is a DLL & Code Injection C++ library for Windows that contains
-    different techniques to assist in injecting code/DLLs into remote processes. Syringe
-    also contains various techniques for executing shellcode.
+    Visit https://github.com/0x80000000/winexec for the newer version of this library (removed a couple features, and added more hooking options).
+    I'm planning on expanding this project alot more.
 </p>
 
 <p align="center">
